@@ -14,7 +14,7 @@ namespace ConsoleApplication1
 
             Thread.Sleep(2000);
             //we make a list of random fruits
-            string[] fruits = new string[7] {"appel","peer","banaan","appel","kers","tomaat","appel"} ;
+            string[] fruits = new string[7] {"appel","peer","banan","appel","kers","tomaat","appel"} ;
             
             //and we want to filter out all the apples
             foreach(string appel in getAppels(fruits))
